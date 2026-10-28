@@ -1,0 +1,2 @@
+faster-whisper>=1.2.1
+av<19  # av 19 breaks faster-whisper 1.2.1 audio decoding (metadata_errors kwarg)
